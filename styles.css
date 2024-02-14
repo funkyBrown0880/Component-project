@@ -12,11 +12,12 @@ body{
 .container-wrapper {
     background-color: #fff;
     width: 20%;
-    height: 85vh;
-    margin: 50px auto;
+    height: 95vh;
+    margin: 25px auto;
     position: absolute;
     padding: 20px;
     left: 40%;
+   
 }
 .container {
     display: grid;
@@ -106,4 +107,48 @@ ul .check::before {
     background-size: cover;
     top: 12px;
     left: 5px;
+}
+
+hr {
+    background-color: #40404b;
+}
+
+h4 {
+    color: #40404b;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.recurring-list-btn {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.yellow {
+    background-color: #F5ED84;
+}
+
+.green {
+    background-color: #B5EA81;
+}
+
+.pink {
+    background-color: #F8AAAA;
+}
+
+.blue {
+    background-color: #B3B3EF;
 }
