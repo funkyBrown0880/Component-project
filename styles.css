@@ -51,7 +51,7 @@ h3{
 h1 {
     color: #40404b;
     font-weight: 100;
-    /* font-size: 15px; */
+   
 }
 
 .add {
@@ -62,4 +62,16 @@ h1 {
     font-size: larger;
     height: 40px;
     width: 40px;
+}
+
+.progress-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+progress {
+    height: 24px;
+    width: 100%;
+    
 }
